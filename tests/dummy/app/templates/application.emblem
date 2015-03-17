@@ -1,0 +1,4 @@
+h2 promise button
+promise-button model=promise click="performTask"
+  span perform task
+== outlet

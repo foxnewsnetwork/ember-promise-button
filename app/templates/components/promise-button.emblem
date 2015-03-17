@@ -1,0 +1,5 @@
+.promise-button-content
+  == yield
+.promise-button-spinner
+  i.fa-spinner.fa-spin.fa
+  span.loading-text= nowLoadingText
