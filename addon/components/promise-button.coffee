@@ -2,10 +2,11 @@
 
 PromiseButton = Ember.Component.extend
   tagName: "button"
-  classNames: "promise-button"
+  classNames: ["promise-button"]
   classNameBindings: ["disabled:loading:ready"]
   attributeBindings: ["disabled"]
-  nowLoadingText: "loading"
+  loadingText: "loading"
   disabled: Ember.computed.alias("model.isSaving")
+  isLoading: Ember.computed.alias("disabled")
 
 `export default PromiseButton`

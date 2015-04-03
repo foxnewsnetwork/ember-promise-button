@@ -1,0 +1,9 @@
+.promise-button {
+  .loading-text {
+    text-transform: capitalize;
+    margin-left: 10px;
+    &::after {
+      content: "...";
+    }
+  }
+}
