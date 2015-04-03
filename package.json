@@ -1,6 +1,6 @@
 {
   "name": "ember-promise-button",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "yet another ember stateful button implementation",
   "directories": {
     "doc": "doc",

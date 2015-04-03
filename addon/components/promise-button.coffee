@@ -1,12 +1,12 @@
 `import Ember from 'ember'`
 
-PromiseButton = Ember.Component.extend
+PromiseButtonComponent = Ember.Component.extend Ember.PromiseProxyMixin,
   tagName: "button"
   classNames: ["promise-button"]
   classNameBindings: ["disabled:loading:ready"]
-  attributeBindings: ["disabled"]
+  attributeBindings: ["disabled", "type"]
   loadingText: "loading"
-  disabled: Ember.computed.alias("model.isSaving")
-  isLoading: Ember.computed.alias("disabled")
+  disabled: Ember.computed.alias("isPending")
+  isLoading: Ember.computed.alias("isPending")
 
-`export default PromiseButton`
+`export default PromiseButtonComponent`
