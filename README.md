@@ -5,7 +5,7 @@ Another implementation of a promise-aware component for emberjs
 Use it like so:
 
 ```handlebars
-{{promise-button promise=myPromise loadingText="loading"}}
+{{#promise-button promise=myPromise loadingText="loading"}}
   submit will to allah
 {{/promise-button}}
 ```
