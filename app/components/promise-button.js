@@ -1,3 +1,3 @@
-import PromiseButton from 'ember-promise-button/components/promise-button';
+import PromiseButtonComponent from 'ember-promise-button/components/promise-button';
 
-export default PromiseButton;
+export default PromiseButtonComponent;

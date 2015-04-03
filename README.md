@@ -1,3 +1,9 @@
+# [DEPRECATION NOTICE]
+
+This is deprecated in favor of:
+
+https://github.com/foxnewsnetwork/promise-button
+
 # Ember-promise-button
 
 Another implementation of a promise-aware component for emberjs
